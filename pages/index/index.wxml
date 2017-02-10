@@ -1,0 +1,31 @@
+<view class="content">
+    <view class="item" wx:for="{{cars}}">
+        <icon wx:if="{{item.selected}}" type="success_circle" size="20" bindtap="bindFalse" data-index="{{index}}"/>
+        <icon wx:else type="circle" size="20" bindtap="bindFalse" data-index="{{index}}"/>
+        <view class="img">
+            <image class="image" src="{{item.image}}"/>
+        </view>
+        <view class="text">
+            <text class="title">{{item.title}}</text>
+            <view class="subtitle">
+                <text class="price">{{item.price}}</text>
+                <view class="st">
+                    <view class="disabled" data-index="{{index}}" bindtap="jian">-</view>
+                    <input type="number" value="{{item.num}}" class="number"/>
+                    <view class="normal" bindtap="add" data-index="{{index}}">+</view>
+                </view>
+            </view>
+        </view>
+    </view>
+</view>
+<view class="zongjia">
+    <view class="p" bindtap="bindBox">
+        <icon wx:if="{{flag}}" type="success_circle" size="20"/>
+        <icon wx:else type="circle" size="20"/>
+        <text>全选￥</text>
+        <text class="m">{{zong}}</text>
+    </view>
+    <view class="o" bindtap="over">
+        立即结算
+    </view>
+</view>

@@ -1,0 +1,125 @@
+.content{
+  width: 100%;
+  font-family: "Microsoft YaHei UI";
+  padding-bottom: 80rpx;
+}
+.content .item{
+  width: 90%;
+  margin: 0 auto;
+  height: 240rpx;
+  /*border: 1px solid red;*/
+}
+.item icon {
+  float: left;
+  margin-top: 60rpx;
+  margin-right: 20rpx;
+}
+.content .item .img{
+  width: 200rpx;
+  height: 200rpx;
+  float: left;
+  margin-top: 20rpx;
+}
+.content .item .img .image{
+  width: 200rpx;
+  height: 200rpx;
+}
+.text{
+  height: 200rpx;
+  float: left;
+  margin-left: 20rpx;
+  margin-top: 20rpx;
+}
+.text .title{
+  font-size: 42rpx;
+  color: #333333;
+  line-height: 90rpx;
+}
+.text .subtitle{
+  height: 80rpx;
+  margin-top: 30rpx;
+}
+.text .subtitle .price{
+  font-size: 36rpx;
+  color: indianred;
+  line-height: 80rpx;
+  float: left;
+  width: 80rpx;
+}
+.text .subtitle .st{
+  height: 80rpx;
+  color: #aaaaaa;
+  float: left;
+  margin-left: 100rpx;
+  margin-top: 20rpx;
+}
+.text .subtitle .st .disabled,.text .subtitle .st .normal{
+  float: left;
+  width: 36rpx;
+  font-size: 32rpx;
+  height: 1.4em;
+  line-height: 1.4em;
+  text-align: center;
+  border: 2px solid #eee;
+}
+.text .subtitle .st .number{
+  float: left;
+  width: 60rpx;
+  font-size: 32rpx;
+  height: 1.4em;
+  border: 0;
+  text-align: center;
+  line-height: 1.4em;
+  color: #333;
+  padding: 0;
+}
+
+.zongjia{
+  width: 90%;
+  height: 80rpx;
+  position: fixed;
+  bottom: 0;
+  left: 5%;
+  z-index: 20;
+  background: #ffffff;
+}
+.p{
+  float: left;
+  font-size: 38rpx;
+  font-family: "Microsoft YaHei UI";
+  /*width: 300rpx;*/
+  height: 80rpx;
+  line-height: 80rpx;
+}
+.p icon{
+  float: left;
+  margin-top: 20rpx;
+  margin-right: 20rpx;
+}
+.p text{
+  color: #333;
+}
+.p .m{
+  color: indianred;
+}
+
+.o{
+  float: right;
+  width: 240rpx;
+  height: 80rpx;
+  color: #fafafa;
+  font-size: 42rpx;
+  text-align: center;
+  line-height: 80rpx;
+  background: orange;
+}
+
+
+
+
+
+
+
+
+
+
